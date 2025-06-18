@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <h1>survey form</h1>
+    <form>
+      <div class="form_important">
+        <label for="name">NAME</label> <br />
+        <input type="text" id="name" placeholder="Enter your name" />
+      </div>
+      <div class="form_important">
+        <label for="email"> Email</label> <br />
+        <input
+          type="text"
+          id="email"
+          name="mail"
+          placeholder="enter your email "
+        />
+      </div>
+      <div class="form_important">
+        <label for="age ">AGE </label> <br />
+        <input type="text" id="age" />
+      </div>
+
+      <div class="form_important">
+        <p>Which option best describes you ?</p>
+
+        <select name="ioj" id="ioj">
+          <option name="student" id="student">student</option>
+          <option name="teacher" id="teacher">teacher</option>
+          <option name="professional " id="professional">professional</option>
+        </select>
+      </div>
+      <div class="form_important">
+        <p>would you recommend GeeksforGeeks to a friend?</p>
+        <input type="radio" name="yes" id="yes" />
+        <label for="yes ">Yes </label><br />
+        <input type="radio" name="no" id="no" />
+        <label for="no ">no </label><br />
+        <input type="radio" name="maybe" id="maybe" />
+        <label for="maybe ">maybe </label>
+      </div>
+
+      <div class="form_important">
+        <p>Languages and Frameworks Known (check all that apply)</p>
+        <input type="checkbox" id="id1" />
+        <label for="checklist ">c++</label><br />
+        <input type="checkbox" id="id2" />
+        <label for="checklist ">c</label><br />
+        <input type="checkbox" id="id3" />
+        <label for="checklist ">java</label><br />
+        <input type="checkbox" id="id4" />
+        <label for="checklist ">java script</label><br />
+        <input type="checkbox" id="id5" />
+        <label for="checklist ">react</label><br />
+        <input type="checkbox" id="id6" />
+        <label for="checklist ">angluar</label><br />
+        <input type="checkbox" id="id7" />
+        <label for="checklist ">rust</label> <br />
+        <input type="checkbox" id="id8" />
+        <label for="checklist ">go</label><br />
+        <input type="checkbox" id="id9" />
+        <label for="checklist ">tailwind</label><br />
+        <input type="checkbox" id="id10" />
+        <label for="checklist ">next.js</label><br />
+      </div>
+      <div class="form_important">
+        <p>Any comments or suggestions</p>
+        <textarea
+          name="textarea"
+          id="text"
+          placeholder="any comments"
+        ></textarea>
+      </div>
+      <button>submit</button>
+    </form>
+  </body>
+</html>

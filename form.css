@@ -1,0 +1,34 @@
+body {
+  text-align: center;
+  background-color: green;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: cursive;
+  font-size: 33px;
+}
+
+form {
+  background-color: #fff;
+  max-width: 500px;
+  margin: 59px auto;
+  padding: 30px 20px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.form_important {
+  text-align: left;
+}
+.form_important,
+input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+button {
+  margin-top: 20px;
+  background-color: lightgreen;
+  width: 100%;
+  font-size: 25px;
+}
